@@ -1,0 +1,40 @@
+.scores{
+    display: inline-block;
+    vertical-align: top;
+    width:100%;
+}
+
+.leftside{
+    float:left;
+    padding-left: 2rem;
+}
+
+.rightside{
+    float:right;
+    padding-right: 2rem;
+}
+
+
+.buttons{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    max-width: 240px;
+    height: 54px;
+    padding: 8px;
+    font-size: 0.8rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 0 0 1px inset rgba(#ece8e1, 0.3);
+    margin: 10px 0;
+  }
